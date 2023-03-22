@@ -1,0 +1,31 @@
+.contenedor-nav{
+    
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.item-nav  a{
+    display:inline-flex;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(31, 150, 77);
+    border:none;
+    font-size: 14px;
+    margin:3px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+
+}
+.item-nav a:hover {
+    background-color: rgb(94, 92, 92);
+    color:white;
+    cursor:pointer;
+}

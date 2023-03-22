@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import Minav from './componentes/Minav.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='cabecera'>
+        <h2>Bienvenidos a mi E-commerce</h2>
+      </div>
+      <div className='nav-superior'>
+          <Minav></Minav>
+      </div>
+      <div className='contenido'>
+        <div className='contenido-izquierdo'>
+                    
+        </div>
+        <div className='contenedor-cuerpo-cards'>
+  
+        </div>
+   
+      </div>
+      <div className='footer'></div>
     </div>
+ 
+ 
   );
 }
 
