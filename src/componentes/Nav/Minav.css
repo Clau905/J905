@@ -13,19 +13,30 @@
     display:inline-flex;
     width: 200px;
     height: 40px;
-    background-color:rgb(31, 150, 77);
+    
     border:none;
     font-size: 14px;
     margin:3px;
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    color: rgb(244, 244, 245);
+    background-color: blue;
 
 
 }
 .item-nav a:hover {
-    background-color: rgb(94, 92, 92);
+    background-color:rgb(31, 150, 77);
     color:white;
     cursor:pointer;
+}
+
+h2{
+
+    font-size: 20px;
+    line-height: 20px;
+
+
+
+
 }
